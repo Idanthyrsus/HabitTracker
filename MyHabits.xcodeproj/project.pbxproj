@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9EACA63A2910D4A000BDE802 /* HabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EACA6392910D4A000BDE802 /* HabitViewController.swift */; };
+		9EB4E8872913B46D0092AAFB /* HabitDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4E8862913B46D0092AAFB /* HabitDetailsViewController.swift */; };
+		9EC6CE1A290A50BF0066A873 /* ProgressHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC6CE19290A50BF0066A873 /* ProgressHeaderView.swift */; };
+		9EC6CE1C290A8C2E0066A873 /* HabitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC6CE1B290A8C2E0066A873 /* HabitCollectionViewCell.swift */; };
 		9ED1A4C42907C3D8000B4B96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A4C32907C3D8000B4B96 /* AppDelegate.swift */; };
 		9ED1A4C62907C3D8000B4B96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A4C52907C3D8000B4B96 /* SceneDelegate.swift */; };
-		9ED1A4C82907C3D8000B4B96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A4C72907C3D8000B4B96 /* ViewController.swift */; };
-		9ED1A4CB2907C3D8000B4B96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED1A4C92907C3D8000B4B96 /* Main.storyboard */; };
+		9ED1A4C82907C3D8000B4B96 /* HabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A4C72907C3D8000B4B96 /* HabitsViewController.swift */; };
 		9ED1A4CD2907C3D9000B4B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED1A4CC2907C3D9000B4B96 /* Assets.xcassets */; };
 		9ED1A4D02907C3D9000B4B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED1A4CE2907C3D9000B4B96 /* LaunchScreen.storyboard */; };
+		9ED1A4D82907C434000B4B96 /* HabitsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A4D72907C434000B4B96 /* HabitsStore.swift */; };
+		9ED1A4DE2907D71A000B4B96 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A4DD2907D71A000B4B96 /* MainTabBarViewController.swift */; };
+		9ED1A4E02907D79D000B4B96 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A4DF2907D79D000B4B96 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9EACA6392910D4A000BDE802 /* HabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewController.swift; sourceTree = "<group>"; };
+		9EB4E8862913B46D0092AAFB /* HabitDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailsViewController.swift; sourceTree = "<group>"; };
+		9EC6CE19290A50BF0066A873 /* ProgressHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHeaderView.swift; sourceTree = "<group>"; };
+		9EC6CE1B290A8C2E0066A873 /* HabitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCollectionViewCell.swift; sourceTree = "<group>"; };
 		9ED1A4C02907C3D8000B4B96 /* MyHabits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHabits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED1A4C32907C3D8000B4B96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ED1A4C52907C3D8000B4B96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9ED1A4C72907C3D8000B4B96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9ED1A4CA2907C3D8000B4B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ED1A4C72907C3D8000B4B96 /* HabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewController.swift; sourceTree = "<group>"; };
 		9ED1A4CC2907C3D9000B4B96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ED1A4CF2907C3D9000B4B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9ED1A4D12907C3D9000B4B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ED1A4D72907C434000B4B96 /* HabitsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsStore.swift; sourceTree = "<group>"; };
+		9ED1A4DD2907D71A000B4B96 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		9ED1A4DF2907D79D000B4B96 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9EACA6382910D34F00BDE802 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9ED1A4D72907C434000B4B96 /* HabitsStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9EC6CE18290A50A80066A873 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9EC6CE19290A50BF0066A873 /* ProgressHeaderView.swift */,
+				9EC6CE1B290A8C2E0066A873 /* HabitCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9ED1A4B72907C3D8000B4B96 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +87,26 @@
 			children = (
 				9ED1A4C32907C3D8000B4B96 /* AppDelegate.swift */,
 				9ED1A4C52907C3D8000B4B96 /* SceneDelegate.swift */,
-				9ED1A4C72907C3D8000B4B96 /* ViewController.swift */,
-				9ED1A4C92907C3D8000B4B96 /* Main.storyboard */,
+				9ED1A4DB2907D66D000B4B96 /* Controllers */,
+				9EACA6382910D34F00BDE802 /* Model */,
+				9EC6CE18290A50A80066A873 /* View */,
 				9ED1A4CC2907C3D9000B4B96 /* Assets.xcassets */,
 				9ED1A4CE2907C3D9000B4B96 /* LaunchScreen.storyboard */,
 				9ED1A4D12907C3D9000B4B96 /* Info.plist */,
 			);
 			path = MyHabits;
+			sourceTree = "<group>";
+		};
+		9ED1A4DB2907D66D000B4B96 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9ED1A4C72907C3D8000B4B96 /* HabitsViewController.swift */,
+				9EACA6392910D4A000BDE802 /* HabitViewController.swift */,
+				9EB4E8862913B46D0092AAFB /* HabitDetailsViewController.swift */,
+				9ED1A4DF2907D79D000B4B96 /* InfoViewController.swift */,
+				9ED1A4DD2907D71A000B4B96 /* MainTabBarViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +169,6 @@
 			files = (
 				9ED1A4D02907C3D9000B4B96 /* LaunchScreen.storyboard in Resources */,
 				9ED1A4CD2907C3D9000B4B96 /* Assets.xcassets in Resources */,
-				9ED1A4CB2907C3D8000B4B96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +179,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ED1A4C82907C3D8000B4B96 /* ViewController.swift in Sources */,
+				9ED1A4D82907C434000B4B96 /* HabitsStore.swift in Sources */,
+				9ED1A4C82907C3D8000B4B96 /* HabitsViewController.swift in Sources */,
+				9EACA63A2910D4A000BDE802 /* HabitViewController.swift in Sources */,
+				9EC6CE1A290A50BF0066A873 /* ProgressHeaderView.swift in Sources */,
+				9ED1A4E02907D79D000B4B96 /* InfoViewController.swift in Sources */,
+				9ED1A4DE2907D71A000B4B96 /* MainTabBarViewController.swift in Sources */,
 				9ED1A4C42907C3D8000B4B96 /* AppDelegate.swift in Sources */,
 				9ED1A4C62907C3D8000B4B96 /* SceneDelegate.swift in Sources */,
+				9EB4E8872913B46D0092AAFB /* HabitDetailsViewController.swift in Sources */,
+				9EC6CE1C290A8C2E0066A873 /* HabitCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9ED1A4C92907C3D8000B4B96 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9ED1A4CA2907C3D8000B4B96 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9ED1A4CE2907C3D9000B4B96 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,14 +325,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 56GJJ22ADR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyHabits/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,6 +342,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexanderKorchak.MyHabits;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,14 +356,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 56GJJ22ADR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyHabits/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,6 +373,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexanderKorchak.MyHabits;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
